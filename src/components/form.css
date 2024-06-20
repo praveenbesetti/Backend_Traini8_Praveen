@@ -1,0 +1,18 @@
+.box {
+    border-radius: 10px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.gradient {
+    background: rgb(0, 136, 255);
+    background: linear-gradient(225deg, rgb(0, 42, 255) 0%, rgb(0, 170, 255) 100%);
+    background: -moz-linear-gradient(225deg, rgb(0, 42, 255) 0%, rgb(0, 170, 255) 100%);
+    background: -webkit-linear-gradient(225deg, rgb(0, 42, 255) 0%, rgb(0, 170, 255) 100%);
+}
